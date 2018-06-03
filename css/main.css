@@ -53,6 +53,19 @@ h2{
 /* 1.2 body copy */
 
 /* 1.3 buttons */
+#btn a{
+	border: 1px solid #fc7608;
+	color: #fc7608;
+	text-transform: uppercase;
+	padding: 10px 25px;
+	}
+	
+#btn a, nav ul li a{
+	text-decoration: none;
+}
+#btn a:hover{
+	background-color: #fc7608;
+}
 
 /* 1.4 forms */
 
@@ -68,10 +81,8 @@ nav ul li{
 	display: inline-block;
 }
 nav ul li a{
-	text-decoration: none;
 	font-size: 30px;
 	padding-right: 12px;
-	color: #fff;
 }
 nav ul li a:hover{
 	color: #fc7608;
@@ -159,4 +170,7 @@ h1{
 }
 body{
 	border-bottom: 25px solid #da0671;
+}
+nav ul li a, #btn a:hover{
+	color: #fff;
 }
