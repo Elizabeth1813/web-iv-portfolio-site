@@ -8,8 +8,8 @@
 </head>
 
 <body>
-<header><!-- doesn't need an id target body > header -->
-	<div class="wrapper, row">
+<header>
+	<div class="wrapper row">
 		<nav class="col-1">
 			<ul>
 				<li><a href="#">Home</a></li>
@@ -37,16 +37,34 @@
 		<h2>Welcome to My Portfolio Site</h2>
 	</header>
 	<div class="row">
-		<section id="c-1">
-			<img src="img/about.jpg" alt=""/><!-- these will have to be placed through css because of the hover state -->
+		<section class="hoverparent">
+			<img src="img/about.jpg" alt=""/>
+			<a href="about.html"></a>
+			<div class="hovercontent">
+				<header>
+					<h3>About</h3>
+				</header>
+			</div>
 		</section>
-		<section id="c-2">
+		<section class="hoverparent">
 			<img src="img/contact.jpg" alt=""/>
+			<a href="contact.html"></a>
+			<div class="hovercontent">
+				<header>
+					<h3>Contact</h3>
+				</header>
+			</div>
 		</section>
-		<section id="c-3">
+		<section class="hoverparent">
 			<img src="img/work.jpg" alt=""/>
+			<a href="work.html"></a>
+			<div class="hovercontent">
+				<header>
+					<h3>Work</h3>
+				</header>
+			</div>
 		</section>
 	</div>
 </section>
-</body><!-- place the border bottom on the body element -->
+</body>
 </html>

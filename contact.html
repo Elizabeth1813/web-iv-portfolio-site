@@ -8,8 +8,8 @@
 </head>
 
 <body>
-<header><!-- doesn't need an id target body > header -->
-	<div class="wrapper, row">
+<header>
+	<div class="wrapper row">
 		<nav class="col-1">
 			<ul>
 				<li><a href="index.html">Home</a></li>
@@ -27,36 +27,32 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="box">
-			<header>
-				<h1>Elizabeth Johnson</h1>
-			</header>
-		</div>
+		<header>
+			<h1>Elizabeth Johnson</h1>
+		</header>
 	</div>
 </header>
-<section>
-	<div class="wrapper">
-		<header>
-			<h2>Contact Me</h2>
-		</header>
-		<form>
-			<div class="row">
-				<div class="col-1">
-					<label for="first-name">First Name:</label>
-					<input id="firstp-name" type="text" name="first-name">
-					<label for="last-name">Last Name:</label>
-					<input id="last-name" type="text" name="last-name">
-				</div>
-				<div class="col-2">
-					<label for="email">Email:</label>
-					<input id="email" type="email" name="email">
-					<p>Message:</p>
-					<textarea name="message"></textarea>
-				</div>
+<section class="wrapper">
+	<header>
+		<h2>Contact Me</h2>
+	</header>
+	<form>
+		<div class="row">
+			<div class="col-1">
+				<label for="first-name">First Name:</label>
+				<input id="firstp-name" type="text" name="first-name">
+				<label for="last-name">Last Name:</label>
+				<input id="last-name" type="text" name="last-name">
 			</div>
-			<p id="btn"><a href="#">Sumit</a></p>
-		</form>
-	</div>
+			<div class="col-1">
+				<label for="email">Email:</label>
+				<input id="email" type="email" name="email">
+				<p>Message:</p>
+				<textarea name="message"></textarea>
+			</div>
+		</div>
+		<p id="btn"><a href="#">Sumit</a></p>
+	</form>
 </section>
-</body><!-- place the border bottom on the body element -->
+</body>
 </html>
