@@ -126,6 +126,11 @@ nav ul li a:hover{
 .col-1{
 	width: 390px;
 }
+header .col-2{
+	width: 135px;
+	margin-top: 100px;
+	padding-right: 100px;
+}
 h1{
 	top: 590px;
 	right: 230px;
@@ -192,9 +197,12 @@ header .col-2 ul li{
 header .col-2 li span{
 	display: none;
 }
+header .col-2 ul li a{
+	display: inline-block;
+}
 header .col-2 li a{
-	width: 25px;
-	height: 25px;
+	width: 30px;
+	height: 30px;
 	
 }
 header .col-2 ul li:first-child a{
@@ -207,7 +215,10 @@ header .col-2  ul li:last-child a{
 	background: url(../img/icon-linkedin.png) no-repeat 0 0;
 }
 	header .col-2 ul li a:hover{
-		background-position: 0 -25px;
+		background-position: 0 -30px;
+	}
+	header .col-2 ul li:first-child a:hover{
+		background-position: 0 -40px;
 	}
 /*4.2 background images */
 body > header{
